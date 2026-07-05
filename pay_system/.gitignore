@@ -1,0 +1,58 @@
+# === Build artifacts ===
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+
+# === Compiled binaries ===
+*.exe
+*.exe.stackdump
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# === IDE and editor files ===
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === Dependencies and generated ===
+deps/
+sqlite/
+docs/
+
+# === Compiled assets ===
+resources/*.png
+
+# === Database files ===
+*.db
+*.db-shm
+*.db-wal
+
+# === Logs and temp ===
+*.log
+tmp/
+error/*
+capture_dino/*
+sfml/*
+test/
+
+# === Project-specific ===
+prompt.txt
+note.txt
+note
+tk.txt
+nul
+freebuff*
