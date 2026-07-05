@@ -1,6 +1,5 @@
 # === Build artifacts ===
 build/
-out/
 cmake-build-*/
 CMakeCache.txt
 CMakeFiles/
@@ -31,19 +30,7 @@ Thumbs.db
 
 # === Logs and temp ===
 *.log
-*.db
-*.db-shm
-*.db-wal
-tmp/
 tmp/
 
 # === Project-specific ===
-libs/
-error/*
-capture_dino/*
-sfml/*
-test/
 prompt.txt
-note.txt
-note
-tk.txt
