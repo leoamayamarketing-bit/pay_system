@@ -33,7 +33,6 @@ build/
 resources/*.png
 sqlite/
 deps/
-docs/
 
 
 
